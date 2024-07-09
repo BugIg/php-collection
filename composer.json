@@ -1,0 +1,21 @@
+{
+    "name": "miv/php-collection",
+    "type": "liblary",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "IM"
+        }
+    ],
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "phpunit/phpunit": "^11.2"
+    },
+    "require": {
+        "webmozart/assert": "^1.11"
+    }
+}
